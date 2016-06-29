@@ -8,8 +8,8 @@ class CoursesPage extends React.Component {
             course: { title: '' }
         };
 
-        this.onTitleChange = this.onTitleChange.bind(this)
-        this.onClickSave = this.onClickSave.bind(this)
+        this.onTitleChange = this.onTitleChange.bind(this);
+        this.onClickSave = this.onClickSave.bind(this);
     }
 
 
@@ -24,7 +24,6 @@ class CoursesPage extends React.Component {
     onClickSave() {
         alert(`Saving ${this.state.course.title}`);
     }
-
 
     render() {
         return (
